@@ -1,0 +1,54 @@
+header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+}
+
+.container a{
+    display: block;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.content a{
+    color: blue;
+    display: inline;
+}
+
+.navigasi{
+    height: auto;
+    width: 200px;
+    background-color: lightgray;
+    font-size: large;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+.navigasi a{
+    margin-bottom: 10px;
+}
+
+.content{
+    width: 584px;
+    height: auto;
+    text-align: center;
+    background-color: lightsalmon;
+}
+
+.content h1{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 30px;
+    background-color: lightblue;
+}
+
+.home, .register, .about, .contact{
+    margin-bottom: 50px;
+}
