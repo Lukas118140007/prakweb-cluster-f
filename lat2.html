@@ -12,9 +12,14 @@
 		.data{
 			background-color: lightgrey;
 		}
+
+		th{
+			text-align: center;
+			background-color:burlywood;
+		}
 	</style>
 </head>
-<body style="text-align: center">
+<body style="text-align: left;">
 	<p>First Name : </p><p><input type="text" name="fname" size="50"></p>
 	<p>Last Name : </p><p><input type="text" name="lname" size="50"></p>
 	<p>Password : </p><p><input type="Password" name="password" size="50"> </p>
@@ -26,8 +31,36 @@
 	<p>Pekerjaan :</p>
 	<p><input type="radio" name="mahasiswa">Mahasiswa</p>
 	<p><input type="radio" name="PNS">PNS</p>
+	<p><input type="radio" name="Pegawai Swasta">Pegawai Swasta</p>
+	<p>Hobi :</p>
+	<p><input type="checkbox" name="check1" value="Gaming">Gaming</p>
+	<p><input type="checkbox" name="check2" value="Musik">Musik</p>
+	<p><input type="checkbox" name="check3" value="Social Media">Social Media</p>
 	<p>Date : </p><p><input type="Date" name="date"></p>
 	<p>Description : </p><p><textarea rows="5" cols="50"></textarea></p>
 	<input type="Submit" name="submit" value="Simpan">
+	
+	<table border="1" style="background-color: aqua; margin-top: 20px;">
+		<tr>
+			<th>Nama</th>
+			<th>NIM</th>
+			<th>Nilai</th>
+		</tr>
+		<tr>
+			<td>Lukas Sandy</td>
+			<td style="text-align: center;">118140007</td>
+			<td style="text-align: center;">90</td>
+		</tr>
+		<tr>
+			<td>Alief M Ardhi</td>
+			<td style="text-align: center;">118140003</td>
+			<td style="text-align: center;">90</td>
+		</tr>
+		<tr>
+			<td>Susan</td>
+			<td style="text-align: center;">118140005</td>
+			<td style="text-align: center;">80</td>
+		</tr>
+	</table>
 </body>
 </html>
