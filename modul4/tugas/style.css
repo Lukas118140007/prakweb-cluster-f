@@ -1,0 +1,69 @@
+.wrap {
+  background: #631bc0;
+  width: 100%;
+  margin: 10px auto;
+}
+.wrap .header {
+  background: #19a2a7;
+  padding: 2px 10px;
+}
+.wrap .header h1 {
+  text-align: center;
+}
+.wrap .header p {
+  text-align: center;
+}
+.wrap .navbar ul {
+  padding-left: 820px;
+  margin: 0;
+  word-spacing: 10px;
+  background: #455661;
+  overflow: hidden;
+}
+.wrap .navbar ul li {
+  float: left;
+  list-style-type: none;
+  padding: 10px;
+}
+.wrap .navbar ul li a {
+  color: white;
+}
+.wrap .container {
+  height: 900px;
+}
+.wrap .container .sidebar {
+  background: #1cc9e0;
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+.wrap .container .content {
+  background: lightgrey;
+  float: left;
+  height: 100%;
+  width: 90%;
+}
+.wrap .container .content h1 {
+  text-align: center;
+}
+.wrap .container .content p {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.wrap .container .content img {
+  border: 4px solid #575D63;
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+}
+.wrap .footer {
+  width: 100%;
+  padding: 10px;
+}
+.wrap .clear {
+  clear: both;
+}
+
+/*# sourceMappingURL=style.css.map */
